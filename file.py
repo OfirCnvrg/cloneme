@@ -1,7 +1,7 @@
 import os
 
 def a():
-  print("hello")
+  print("hello2")
   filename = "outputStrong/myawesomeoutput.txt"
   os.makedirs(os.path.dirname(filename), exist_ok=True)
   with open(filename, "w") as file:
