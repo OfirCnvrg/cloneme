@@ -1,3 +1,5 @@
+import os
+
 def a():
   print("hello")
   filename = "/outputStrong/myawesomeoutput.txt"
